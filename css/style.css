@@ -1,0 +1,70 @@
+/*reset css*/
+*{
+    
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.banner img{
+    border-radius: 10px;
+    max-width: 100%;
+
+}
+
+header{
+    display: flex;
+}
+
+.banner{
+margin: 10px;
+}
+
+.menu{
+    margin: 20px;
+}
+
+
+/*div formulario*/
+.formulario{
+
+    margin: 20px 200px;
+    border-radius: 20px;
+    background-color: rgba(69, 176, 252, 0.685);
+}
+
+/* formulario */
+.atendent{
+    margin-left: 32%;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 30%;
+    background-color: rgba(74, 185, 255, 0.452);
+    display: flex;
+    justify-content: center;
+}
+
+.rodape{
+    text-align: center;
+    border: 20px solid rgba(0, 195, 255, 0.436);
+    margin: 2%;
+    background-color: aliceblue;
+}
+
+.text-box{
+    border: 2px;
+    box-shadow: 20px,20px;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+}
+
+.buttons{
+    
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 8px;
+    width: 90px;
+}
