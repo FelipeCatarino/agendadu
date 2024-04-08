@@ -13,14 +13,8 @@
 </head>
 <body>
 
-    <header>
-        <div class="banner">
-            <img src="images/banner.png" alt="error load banner img ">
-        </div>
-        <ul class="menu">
-            <li><a href="super.html">login</a></li>
-        </ul>
-    </header>
+    <?php include_once "header.php";
+    ?>
     
 
     <main>
@@ -58,11 +52,12 @@
 
     </main>
 
+    <?php
+        include_once "footer.php"; 
+    ?>
 
-    <footer>
-        <div class="rodape">
-            - amiguinhos do código ® - todos os direitos reservados
-        </div>
-    </footer>
+
+
+
 </body>
 </html>
